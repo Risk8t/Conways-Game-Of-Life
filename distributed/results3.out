@@ -1,0 +1,21 @@
+goos: linux
+goarch: amd64
+pkg: uk.ac.bris.cs/gameoflife
+cpu: 12th Gen Intel(R) Core(TM) i7-12700H
+BenchmarkGol/512x512x100-1-20         	       1	2348696706 ns/op
+BenchmarkGol/512x512x100-2-20         	       1	2466650734 ns/op
+BenchmarkGol/512x512x100-3-20         	       1	2665806870 ns/op
+BenchmarkGol/512x512x100-4-20         	       1	3673393095 ns/op
+BenchmarkGol/512x512x100-5-20         	       1	8132309216 ns/op
+BenchmarkGol/512x512x100-6-20         	       1	2618421857 ns/op
+BenchmarkGol/512x512x100-7-20         	       1	2864794036 ns/op
+BenchmarkGol/512x512x100-8-20         	       1	3775361619 ns/op
+BenchmarkGol/512x512x100-9-20         	       1	2741043313 ns/op
+BenchmarkGol/512x512x100-10-20        	       1	2704771321 ns/op
+BenchmarkGol/512x512x100-11-20        	       1	2966847517 ns/op
+BenchmarkGol/512x512x100-12-20        	       1	2860713097 ns/op
+BenchmarkGol/512x512x100-13-20        	       1	2683794049 ns/op
+BenchmarkGol/512x512x100-14-20        	       1	2879430939 ns/op
+BenchmarkGol/512x512x100-15-20        	       1	3088186458 ns/op
+BenchmarkGol/512x512x100-16-20        	       1	3837001744 ns/op
+ok  	uk.ac.bris.cs/gameoflife	52.342s

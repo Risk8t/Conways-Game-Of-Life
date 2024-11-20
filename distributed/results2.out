@@ -1,0 +1,14 @@
+2024/11/11 02:37:24 error getting saved data: connection is shut down
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 37 [running]:
+uk.ac.bris.cs/gameoflife/gol.calculateAliveCells(...)
+	/home/kevin/Extensions/CSA-Game-of-Life/distributed/gol/distributor.go:199
+uk.ac.bris.cs/gameoflife/gol.distributor({0x0?, 0x0?, 0x0?, 0x0?}, {0xc00002e2a0, 0xc00002e300, 0xc00002e360, 0xc00002e3c0, 0xc00002e420, 0xc00002e480, ...})
+	/home/kevin/Extensions/CSA-Game-of-Life/distributed/gol/distributor.go:181 +0x1018
+uk.ac.bris.cs/gameoflife/gol.Run({0x0?, 0x0?, 0x0?, 0x0?}, 0xc00002e2a0, 0x0)
+	/home/kevin/Extensions/CSA-Game-of-Life/distributed/gol/gol.go:41 +0x2bb
+created by uk.ac.bris.cs/gameoflife.BenchmarkGol.func1
+	/home/kevin/Extensions/CSA-Game-of-Life/distributed/my_benchmark_test.go:25 +0xef
+exit status 2
+FAIL	uk.ac.bris.cs/gameoflife	6.241s
